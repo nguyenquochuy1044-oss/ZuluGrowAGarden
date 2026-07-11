@@ -931,13 +931,6 @@ if true then
                     end
                 end)
             end
-            if _G.AutoSetInfo == false then
-                if AutoSetInfoServer then
-                    AutoSetInfoServer:Disconnect()
-                    AutoSetInfoServer = nil
-                    return AutoSetInfoServer
-                end
-            end
         end
     })
     InfoServer2Group:AddButton("Copy Position", function()
