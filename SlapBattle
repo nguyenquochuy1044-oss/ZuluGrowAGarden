@@ -88,7 +88,7 @@ if game.CoreGui:FindFirstChild("Gui Track") == nil then
     TextLabel.TextWrapped = true
     TextLabel.Parent = Frame
 end
-if true then
+if false then
     if game.ReplicatedStorage:FindFirstChild("AdminGUI") then
         game.ReplicatedStorage.AdminGUI:Destroy()
     end
