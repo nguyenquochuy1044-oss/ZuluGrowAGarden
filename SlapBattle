@@ -612,7 +612,7 @@ if false then
         TournamentAntiVoid.Transparency = 1
         TournamentAntiVoid.CanCollide = false
     end
-elseif game.PlaceId == 9431156611 then
+elseif true then
     if hookmetamethod and getnamecallmethod then
         local bypass;
         bypass = hookmetamethod(game, "__namecall", function(method, ...)
@@ -929,7 +929,7 @@ if true then
                         GravityYou:SetText("Gravity [ " .. game.Workspace.Gravity .. " ]", true)
                         PositionYou:SetText("Position In Your [ " .. tostring(math.round(game.Players.LocalPlayer.Character.HumanoidRootPart.Position.X) .. ", " .. math.round(game.Players.LocalPlayer.Character.HumanoidRootPart.Position.Y) .. ", " .. math.round(game.Players.LocalPlayer.Character.HumanoidRootPart.Position.Z)) .. " ]")
                     end
-                end)
+                end
             end
         end
     })
