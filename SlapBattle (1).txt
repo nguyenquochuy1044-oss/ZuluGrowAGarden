@@ -6311,7 +6311,7 @@ end
         Text = "Reach Slap Aura",
         Default = 25,
         Min = 10,
-        Max = 50,
+        Max = 400,
         Rounding = 0,
         Compact = true,
         Callback = function(Value)
