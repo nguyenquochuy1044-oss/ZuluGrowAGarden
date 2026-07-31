@@ -502,7 +502,8 @@ then C[F]=I end end if h then h:SetCurrentStep(4)h:SetDescription(E and'Download
 )AddGloveAsset('GloveUtility','SlapMaceIcon',
 [[https://static.wikia.nocookie.net/roblox-slap-battles/images/b/b5/MaceHolding.png/revision/latest/scale-to-width-down/128?cb=20241227163801]]
 )getgenv().SlapGloveIcon=C if game.PlaceId==6403373529 or game.PlaceId==136802962479827 or game.PlaceId==127174121130060
-or game.PlaceId==11520107397 or game.PlaceId==124596094333302 or game.PlaceId==2380077519 then Window:ChangeTitle(
+or game.PlaceId==11520107397 or game.PlaceId==124596094333302 or game.PlaceId==2380077519 or 
+game.PlaceId==9015014224 then Window:ChangeTitle(
 'Slap Battles \u{1f44f}')Tabs={Tab=Window:AddTab('Info',B.Info),Tab1=Window:AddTab('Script',B.Script),Tab2=Window:
 AddTab('Anti',B.Anti),Tab3=Window:AddTab('Badges',B.Badges),Tab4=Window:AddTab('Local',B.Local),Tab5=Window:AddTab(
 'Misc',B.Misc),Tab6=Window:AddTab('Gloves Optional',B.GlovesOptional),['UI Settings']=Window:AddTab('UI Settings',B.
@@ -3546,7 +3547,7 @@ Character:FindFirstChild('HumanoidRootPart')then repeat task.wait()if game.Playe
 firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart,EnterPo,1)end until game.Players.LocalPlayer.
 Character:FindFirstChild('entered')end end task.wait()end end})_G.SlapAuraCharacter='HumanoidRootPart'_G.ReachSlapArua=
 25 _G.DelaySlapArua=0.35 _G.SlapAuraFriend='Fight'_G.SlapAuraChoose='Normal'_G.WidthHitbox=15 _G.LengthHitbox=10 W:
-AddSlider('Reach Aura',{Text='Reach Slap Aura',Default=25,Min=10,Max=50,Rounding=0,Compact=true,Callback=function(aq)_G.
+AddSlider('Reach Aura',{Text='Reach Slap Aura',Default=25,Min=10,Max=400,Rounding=0,Compact=true,Callback=function(aq)_G.
 ReachSlapArua=aq end})W:AddSlider('Delay Aura',{Text='Delay Slap Aura',Default=0.75,Min=0.35,Max=1,Rounding=2,Compact=
 true,Callback=function(aq)_G.DelaySlapArua=aq end})W:AddDropdown('Slap Friend',{Text='Slap Aura Friend',Values={'Fight',
 'Not Fight'},Default='Fight',Multi=false,Callback=function(aq)_G.SlapAuraFriend=aq end})W:AddDropdown('ChooseCharacter',
